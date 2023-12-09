@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"hellogoroutine/threadinfo"
 	"sync"
 )
 
@@ -17,4 +18,6 @@ func main() {
 		go printHello(&wg)
 	}
 	wg.Wait()
+
+	threadinfo.Threadinfo()
 }

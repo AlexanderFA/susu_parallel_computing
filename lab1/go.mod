@@ -1,3 +1,3 @@
-module example/hello
+module hellogoroutine
 
 go 1.21.4

@@ -1,4 +1,4 @@
-package main
+package threadinfo
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ func printThreadInfo(threadNum int, totalThreads int, wg *sync.WaitGroup) {
 	fmt.Printf("I am %d thread from %d threads!\n", threadNum, totalThreads)
 }
 
-func main() {
+func Threadinfo() {
 	var k int
 	fmt.Println("Enter the number of threads:")
 	fmt.Scan(&k)
